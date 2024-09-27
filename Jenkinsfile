@@ -4,7 +4,7 @@ pipeline{
     githubPush()
   }
   stages{
-    stage('checkout'){
+    stage('Checkout'){
       steps{
         //checkout repository
         checkout scm
